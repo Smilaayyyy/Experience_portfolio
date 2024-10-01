@@ -1,0 +1,50 @@
+/* src/Experience.css */
+/* src/Experience.css */
+
+.experience-container {
+  padding: 20px;
+  background-color: #f7e9e9;
+  margin: 20px;
+ 
+}
+.duration {
+  font-size: 1.5em; /* Increase font size for duration */
+ 
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.experience-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 30px; /* Gap between cards */
+}
+
+.experience-card {
+  background-color: white; /* Set background color */
+  border-radius: 8px; /* Add some border radius for smooth corners */
+  padding: 20px; /* Add padding for inner spacing */
+  margin: 10px auto; /* Center the card and add vertical spacing */
+  width: 100%; /* Set width to 80% of the parent container or adjust as needed */
+  max-width: 1600px; /* Set a max-width to limit how wide it can get */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 1.7em; 
+}
+
+h3 {
+  margin-top: 15px;
+  font-size: 1.5em; 
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  font-size: 1.2em; 
+}
